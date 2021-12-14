@@ -1,0 +1,200 @@
+
+/* Styles for 1st Grid (Header) of the Dashboard */
+ 
+/* Styles for heading(Invoice List) */
+.heading {
+    top: 20px;
+    left:   35%;
+    width: 400px;
+    height: 100px;
+    opacity: 1;
+    text-align: center;
+    font: normal;
+    position : fixed;
+    font: normal normal normal 18px/22px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* Styles for the second Grid */
+/* Styles for the List Background */
+ .democanvas {
+    top: 90px;
+    left: 15px;
+    right: 150px;
+    width: 1250px;
+    height: 500px;
+    background: #273D49CC 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    position: fixed;
+}
+
+/* Styles for the Add Button */
+ .Search {
+  top: 30%;
+  left: 40%;
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid #14AFF1;
+  border-radius: 10px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: fixed;
+  background-color: #355769cc;
+}
+
+/*/* Styles for the Search Button 
+ .Search_b {
+  top: 10px;
+  left: 1320px;
+  width: 220px;
+  height: 30px;
+  border: 1.5px solid #356680;
+  border-radius: 10px;
+  color :#97A1A9;
+  opacity: 1;
+  position: absolute;
+  background: #283A46 0% 0% no-repeat padding-box;
+}*/
+
+
+
+/* Styles for Modal Window of Search Button */
+.modal-bg1 {
+  display: none;
+  position:fixed;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  bottom: -150px;
+  width : 800px;
+  height: 350px;
+  background-color:#3c5466;
+  box-shadow: 0px 16px 24px #05020229;
+  border-radius: 10px;
+  opacity: 1;
+  color:#aaaaaa;
+}
+
+/* Styles for the Close ('X') sign */
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* For hovering when pointer is near the 'X' */
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Styles for Header Section of Add Modal */
+.modal_header {
+  top: 10px;
+  left: 30px;
+  width: 150px;
+  height: 25px;
+  border: 0px 0px 10px 10px solid white;
+  font: normal normal normal 18px/20px Ubuntu;
+  color: #aaaaaa;
+}
+
+.required{
+  color: #aaaaaa;
+  font: normal normal normal 16px/14px Ubuntu;
+  text-align: left;
+  position: absolute;
+}
+/* For red asterisk after mandatory field */
+.required::after {
+  content: "*";
+  color: red;
+}
+.inv {
+  height: 30px;
+  width: 230px;
+  background: #283A46;
+  border: 2px solid #4b758d;
+  border-radius: 5px;
+  letter-spacing: 0.19px;
+  opacity: 1;
+  position: absolute;
+  color: #554545;
+  }
+  input[type="date"]::-webkit-calender-picker-indicator {
+    display: block;
+    background: url(calende_today-24px.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0);
+  }
+
+  #note {
+    background: #283A46;
+    border: 2px solid #356680;
+    border-radius: 5px;
+    letter-spacing: 0.19px;
+    opacity: 1;
+    position: absolute;
+  }
+
+  /* Styles for  the Button Section of Add Modal */
+.button {
+  top: 350px;
+  height: 50px;
+  width: 500px;
+  border-top: 10px solid #FFFFFF;
+}
+#cancel1 {
+  top: 300px;
+  left: 20px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  font: normal normal normal 16px/16px Ubuntu;
+  letter-spacing: 0px;
+  color: #14AFF1;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+}
+#clear1 {
+  top: 300px;
+  left: 600px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  font: normal normal normal 16px/16px Ubuntu;
+  color: #283A46;
+  border: 1px solid #14AFF1;
+  border-radius: 5px;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  
+}
+#Search {
+  top: 300px;
+  left: 690px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  font: normal normal normal 16px/16px Ubuntu;
+  color: #283A46;
+  background: #14AFF1;
+  border: 1px solid #14AFF1;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+}
+
+
+

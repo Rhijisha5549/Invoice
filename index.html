@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset = "ISO-8859-1">
+    <link rel = "stylesheet" href = "index.css">
+    <link rel="stylesheet" type= "text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  
+  <body bgcolor = "#39495E" height = 700px width = 1600px>
+      <h1 class = "heading"> Invoice Management </h1>
+    
+    <div class = "democanvas">
+      <button class = "Search" id = "search_b" type = "button">Search for Your Invoice </button>
+
+      <div class = "modal-bg1" id = "bg1">
+        <div class = "modal1">
+          <div class= "modal_header">
+            <h2 style = "left: 20px;position:absolute; text-align: center;"> Type Details </h2>
+            <span id= "close_cross1" style = "position:absolute; top:10px; left:760px; width:10px; height:10px; cursor:pointer; background: transparent url('img/baseline-close-24px.png') 0% 0% no-repeat padding-box; opacity: 1;">&times;</span> 
+          </div>
+          <br>
+          <div>
+            <label for = "customer name." class = "required" style = "left: 20px; top: 100px;"> Customer Name. </label>
+            <input type = "text" class = "inv" style = "left: 152px; top: 100px;"/>
+            <label for = "customer no." class = "required" style = "left: 20px; top: 150px;"> Customer No. </label>
+            <input type = "text" class = "inv" style = "left: 152px; top: 150px;"/>
+            <label for = "invoice no." class = "required" style = "left: 20px; top: 200px;"> Invoice No. </label>
+            <input type = "text" class = "inv" style = "left: 152px; top: 200px;"/>
+            <label for = "invoice name" class = "required" style = "left: 20px; top: 250px;"> Invoice Amount </label>
+            <input type = "text" class = "inv" style = "left: 152px; top: 250px;"/>
+            <label for = "date" class = "required" style = "left: 480px; top: 100px;"> Date </label>
+            <input type = "date" class = "inv" style = "left: 540px; top: 100px;"/>
+            <label for = "note" style = "left: 480px; top: 150px; color: #aaaaaa; position: absolute; font: normal normal normal 16px/14px Ubuntu;"> Notes </label>
+            <textarea id = "note" rows = 4 cols = 10 style = "left: 540px; top: 150px; position: absolute;"></textarea>
+        </div>
+        <hr>
+          
+          <hr>
+          <div class = "btn">
+            <a class = "close1" id = "cancel1"  type = "button" > Cancel </a>
+            <button id = "clear1" type = "button"> Clear</button>
+            <button id = "Search" type = "button"> Search </button>
+          </div>
+        </div>
+      </div>     
+          
+          <object data = "file:///D:/Summer_Internship_Backend/WebContent/images/Symbol%20129%20G%C3%87%C3%B4%201.svg"
+          height = 15px width = 15px ></object></button>
+          
+          <script src= "index.js"></script>  
+          <!--<script src= "Pagination.js"></script>-->
+    
+  
+    </body>
+</html>
